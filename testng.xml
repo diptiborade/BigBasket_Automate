@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BigBasketSuite">
+  <test thread-count="5" name="BigBasketTest">
+    <classes>
+      <class name="com.BigBasket.qa.TessCases.TC01_LoginTest"/>
+      <!--<class name="com.BigBasket.qa.TestLogin.TC03_ShopbyCategoryVerification"/>   -->
+         <!--<class name="com.BigBasket.qa.TestLogin.TC04_PanelHighlightTest"/> -->
+       <class name="com.BigBasket.qa.TestLogin.TC05_SearchbarTest"/> 
+        <class name="com.BigBasket.qa.TestLogin.TC02_LogoutTest"/>
+    </classes>
+  </test> <!-- BigBasketTest -->
+</suite> <!-- BigBasketSuite -->
